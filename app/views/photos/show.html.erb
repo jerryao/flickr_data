@@ -1,0 +1,46 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Lat:</b>
+  <%= @photo.lat %>
+</p>
+
+<p>
+  <b>Lon:</b>
+  <%= @photo.lon %>
+</p>
+
+<p>
+  <b>Shot at:</b>
+  <%= @photo.shot_at %>
+</p>
+
+<p>
+  <b>User name:</b>
+  <%= @photo.user_name %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @photo.user_id %>
+</p>
+
+<p>
+  <b>Photo title:</b>
+  <%= @photo.photo_title %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @photo.url %>
+</p>
+
+<p>
+  <b>Tags:</b>
+  <%= @photo.tags %>
+</p>
+
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>
+

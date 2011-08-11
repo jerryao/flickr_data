@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  lat: 9.99
+  lon: 9.99
+  shot_at: 2011-07-25 10:04:10
+  user_name: MyString
+  user_id: MyString
+  photo_title: MyString
+  url: MyString
+  tags: MyString
+
+two:
+  lat: 9.99
+  lon: 9.99
+  shot_at: 2011-07-25 10:04:10
+  user_name: MyString
+  user_id: MyString
+  photo_title: MyString
+  url: MyString
+  tags: MyString
